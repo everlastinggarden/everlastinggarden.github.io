@@ -1,0 +1,30 @@
+<!-- Crops Section -->
+<div class="content-section-dark">
+  <section id="crops" class="container content-section text-center">
+    <div class="row">
+      <h2>Crops</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="content-section-small">
+          {% for crop in site.data.crops %}
+            <div class="col-sm-4 col-xs-6 show-item">
+              <h5>{{ crop.name }}</h5>
+              {% if crop.types.size > 0 %}
+              <p>({{ crop.types | join: ", " }})
+              </p>
+              {% endif %}
+            </div>
+            {% assign index2 = forloop.index | modulo: 2 %}
+            {% assign index3 = forloop.index | modulo: 3 %}
+            {% if index2 == 0 %}
+              <div class="clearfix visible-xs-block"></div>
+            {% endif %}
+            {% if index3 == 0 %}
+              <div class="clearfix hidden-xs"></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

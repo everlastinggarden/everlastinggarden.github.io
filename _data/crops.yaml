@@ -1,0 +1,91 @@
+- name: Anise Hyssop
+- name: Basil
+  types:
+    - Anise Basil
+    - Cinnamon Basil
+    - Greek Basil
+    - Lemon Basil
+    - Italian Big Leaf
+    - Italian Fine Leaf
+    - Purple Basil
+    - Purple Ruffles
+    - Red Ruby
+    - Thai Basil
+- name: Bay leaves
+  types:
+    - Sweet Bay
+- name: Beets
+  types:
+    - Baby Red
+    - Gold
+    - White
+- name: Burdock
+- name: Baby Carrots
+- name: Chervil
+- name: Chard
+  types:
+    - Rainbow Chard
+- name: Chives
+  types:
+    - Regular Chives
+    - Garlic Chives
+- name: Cilantro
+- name: Dandelion
+- name: Dill
+- name: Green Garlic
+- name: Fennel
+  types:
+    - Green
+- name: Lemon Grass
+- name: Marjoram
+  types:
+    - Sweet
+    - Wild
+    - Zaatar
+- name: Mints
+- name: Mizuna
+  types:
+    - baby
+- name: Oregano
+  types:
+    - Italian
+    - Mexican
+- name: Pepper
+  types:
+    - Habanero
+    - Chili Padron
+- name: Purslane
+- name: Radishes
+  types:
+    - French Breakfast
+- name: Rosemary
+- name: Sage
+- name: Scallions
+- name: Shiso
+  types:
+    - Green
+    - Purple
+- name: Shungiku
+- name: Sun Choke
+- name: Tarragon
+  types:
+    - French Tarragon
+- name: Thyme
+  types:
+    - Lemon Thyme
+    - German Winter
+    - Summer
+    - French Thyme
+- name: Water Cress
+  types:
+    - Upland Cress
+    - Pepper Cress
+    - Wrinkled
+    - Crinkled Cress
+- name: Wild Arugula
+- name: Winter Squash
+  types:
+    - Butternut
+    - Kabocha
+    - Winter Sweet
+- name: Yacon
