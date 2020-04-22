@@ -1,4 +1,4 @@
-- name: Anise Hyssop
+- name: Anise&nbsp;Hyssop
 - name: Basil
   types:
     - Anise Basil
@@ -45,7 +45,7 @@
 - name: Mints
 - name: Mizuna
   types:
-    - baby
+    - Baby
 - name: Oregano
   types:
     - Italian
