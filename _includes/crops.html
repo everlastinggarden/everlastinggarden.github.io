@@ -8,7 +8,7 @@
         <div class="content-section-small">
           {% for crop in site.data.crops %}
             <div class="col-sm-4 col-xs-6 show-item">
-              <h5>{{ crop.name }}</h5>
+              <h4>{{ crop.name }}</h4>
               {% if crop.types.size > 0 %}
               <p>({{ crop.types | join: ", " | replace: " ", "&nbsp;" | replace: ",&nbsp;", ", "}})
               </p>
