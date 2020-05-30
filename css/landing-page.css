@@ -1,5 +1,5 @@
 a {
-  color: hsl(213, 67%, 77%);
+  color: hsl(213, 85%, 61%);
 }
 
 a:hover {
@@ -86,6 +86,10 @@ img {
   color: #f8f8f8;
 }
 
+.intro-header h3 {
+  text-shadow: black 1px 0 10px;
+}
+
 .intro-header-background {
   position: absolute;
   top: 0;
@@ -168,7 +172,7 @@ hr.intro-divider {
 .intro-button.btn-primary {
   flex-grow: 1;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
   border-color: white;
   margin: 10px;
@@ -310,7 +314,8 @@ hr.intro-divider {
 }
 
 .btn-primary {
-  background-color: hsl(213, 67%, 77%);
+  font-weight: bold;
+  background-color: hsl(213, 85%, 61%);
   border-color: transparent;
 }
 
