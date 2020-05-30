@@ -168,7 +168,8 @@ hr.intro-divider {
 .intro-button.btn-primary {
   flex-grow: 1;
   padding: 20px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
   border-color: white;
   margin: 10px;
   font-size: 18px;
@@ -181,8 +182,9 @@ hr.intro-divider {
 }
 
 .filter {
-  -webkit-filter: contrast(140%) sepia(50%);
-  filter: contrast(140%) sepia(50%);
+  position: relative;
+  -webkit-filter: contrast(90%) brightness(120%) saturate(110%);
+  filter: contrast(90%) brightness(120%) saturate(110%);
 }
 
 .filter::before {
@@ -194,8 +196,10 @@ hr.intro-divider {
   left: 0;
   position: absolute;
   pointer-events: none;
-  mix-blend-mode: lighten;
-  background: rgba(161, 44, 199, 0.31);
+  mix-blend-mode: multiply;
+  opacity: 0.91;
+  background: -webkit-radial-gradient(center center, circle farthest-corner, rgb(255, 182, 182) 50%, rgb(55, 31, 55) 100%);
+  background: radial-gradient(center center, circle farthest-corner, rgb(255, 182, 182) 50%, rgb(55, 31, 55) 100%);
 }
 
 .party-filter {
